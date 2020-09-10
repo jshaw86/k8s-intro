@@ -32,3 +32,9 @@ Here is a screenshot of running:
 3. running a curl against the minikube tunnel load balancer
 
 ![sample](https://github.com/jshaw86/k8s-intro/blob/master/sample.png)
+
+# Teardown
+
+```
+minikube delete
+```
