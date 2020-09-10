@@ -8,7 +8,7 @@ This is a quick intro to K8s resources and demoing an end to end echo server on 
 brew install minikube helm kubectl
 ```
 
-> Warning! Running the below will install helm 3.0 into /usr/local/bin. If you have helm 2.0 already installed I don't recommend:
+> Warning! Running the above will install helm 3.0 into /usr/local/bin. If you have helm 2.0 already installed I don't recommend:
 > 1. install helm via brew instead follow https://helm.sh/docs/intro/install/#from-script and 
 > 2. run the script with a different HELM_INSTALL_DIR
 > 3. mv $HELM_INSTALL_DIR/helm $HELM_INSTALL_DIR/helm3 
